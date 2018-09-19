@@ -25,8 +25,7 @@
 
 # Examples / Code
 
-* Example visualizations/apps built on API Highways APIs:
-https://apihighways.org/examples/
+* Example visualizations/apps built on API Highways APIs: https://apihighways.org/examples/
 * Example code using APIs for environmental data: https://github.com/nsuberi/RW_hackathon_materials 
 
 # Datasets
