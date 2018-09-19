@@ -2,7 +2,7 @@
 [Tools](#tools)  
 [Examples / Code](#examples--code)
 [Datasets](#datasets)
-[Agriculture / cl[imate change](#agriculture--cl[imate-change)
+[Agriculture / climate change](#agriculture--cl[imate-change)
 [Deforestation](#deforestation)
 [Roads / Trails / Infrastructure](#roads--trails--infrastructure)
 [Population / land cover](#population--land-cover)
@@ -34,7 +34,7 @@ https://apihighways.org/examples/
 ## Agriculture / climate change
 
 Farmer List and Market Locations:
-   * API info / link on API Highways: 
+   * API info / link on API Highways: https://apihighways.org/data-sets/17520216-23db-4345-925e-78cef8ff162c
    * Data.World: https://data.world/gpsdd/farmers-and-market-information-sierra-leone 
    * CARTO Map (incomplete data: https://apihighways.carto.com/builder/a25ddaad-6e44-4d5c-8154-6889ee6ac118 
 
