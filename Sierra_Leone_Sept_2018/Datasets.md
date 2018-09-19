@@ -10,6 +10,10 @@
 [Population / land cover](#population--land-cover)  
 [Health](#health)  
 
+# Hackathon Info
+
+* [Technical Specification](https://docs.google.com/document/d/1li61TCZwlg5RhaBdYwa5TpU5dI7MxsNXPFiTc8NqTLw/edit?usp=sharing)
+* [Judgement Critera](#)
 
 # Tools
 
@@ -38,9 +42,9 @@
 ## Agriculture / climate change
 
 Farmer List and Market Locations:
-   * API info / link on API Highways: https://apihighways.org/data-sets/17520216-23db-4345-925e-78cef8ff162c
+   * Farmers API: https://apihighways.org/data-sets/1fdceed2-57f7-4b5b-81e6-e202c53b661b
    * Data.World: https://data.world/gpsdd/farmers-and-market-information-sierra-leone 
-   * CARTO Map (incomplete data: https://apihighways.carto.com/builder/a25ddaad-6e44-4d5c-8154-6889ee6ac118 
+   * CARTO Map (incomplete data): https://apihighways.carto.com/builder/a25ddaad-6e44-4d5c-8154-6889ee6ac118 
 
 Agriculture and Country Statistics: https://harvestchoice.org/products/data?page=5
 
