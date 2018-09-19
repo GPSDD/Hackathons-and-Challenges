@@ -1,12 +1,12 @@
 
 [Tools](#tools)  
-[Examples / Code](#examples--code)
-[Datasets](#datasets)
-[Agriculture / climate change](#agriculture--climate-change)
-[Deforestation](#deforestation)
-[Roads / Trails / Infrastructure](#roads--trails--infrastructure)
-[Population / land cover](#population--land-cover)
-[Health](#health)
+[Examples / Code](#examples--code)  
+[Datasets](#datasets)  
+[Agriculture / climate change](#agriculture--climate-change)  
+[Deforestation](#deforestation)  
+[Roads / Trails / Infrastructure](#roads--trails--infrastructure)  
+[Population / land cover](#population--land-cover)  
+[Health](#health)  
 
 
 # Tools
