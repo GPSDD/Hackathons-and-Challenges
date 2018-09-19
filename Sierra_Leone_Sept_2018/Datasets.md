@@ -2,7 +2,7 @@
 [Tools](#tools)  
 [Examples / Code](#examples--code)
 [Datasets](#datasets)
-[Agriculture / climate change](#agriculture--cl[imate-change)
+[Agriculture / climate change](#agriculture--climate-change)
 [Deforestation](#deforestation)
 [Roads / Trails / Infrastructure](#roads--trails--infrastructure)
 [Population / land cover](#population--land-cover)
