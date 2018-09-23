@@ -1,4 +1,4 @@
-#EXECUTIVE SUMMARY
+# EXECUTIVE SUMMARY
 
 We are green living. A team of young developers trying all we could to fix one of some of the issues that poultry farmers are facing.
 Poultry farmers are loosing their chicken due to some diseases and they are finding it difficult to diagnose what exactly went wrong.
