@@ -1,33 +1,40 @@
 
-[Tools](#tools)
-Examples / Code
-Datasets
-Agriculture / climate change
-Deforestation
-Pollution / air quality / water quality
-Roads / Trails / Infrastructure
-Population / land cover 
-Health
+[Tools](#tools)  
+[Examples / Code](#examples--code)  
 
+### Datasets
+
+[Agriculture / climate change](#agriculture--climate-change)  
+[Deforestation](#deforestation)  
+[Roads / Trails / Infrastructure](#roads--trails--infrastructure)  
+[Population / land cover](#population--land-cover)  
+[Health](#health)  
+
+# Hackathon Info
+
+* [Technical Specification](https://docs.google.com/document/d/1li61TCZwlg5RhaBdYwa5TpU5dI7MxsNXPFiTc8NqTLw/edit?usp=sharing)
+* [Judgement Critera](#)
 
 # Tools
 
+* Sierra Leone Data Portal: http://sierraleone.opendataforafrica.org/
+* Google Dataset Search: https://toolbox.google.com/datasetsearch
 * Google Earth Engine
    * https://developers.google.com/earth-engine/datasets/ 
    * https://developers.google.com/earth-engine/#api
    * https://explorer.earthengine.google.com/#index 
-* CARTO
+* CARTO: tool for mapping and analyzing geospatial data
+   * https://apihighways.carto.com/dashboard/datasets/tag/sierra_leone
    * Ask us about account access or create a free trial account
-* https://resourcewatch.org/data/explore
+* https://resourcewatch.org/data/explore: maps of global environmental datasets 
 * https://www.wri.org/our-work/project/aqueduct 
-* https://app.radiant.earth
-* https://www.globalforestwatch.org/ 
-* Google Dataset Search: https://toolbox.google.com/datasetsearch 
+* https://app.radiant.earth: Sattelite imagery analysis
+* https://www.globalforestwatch.org/
+ 
 
 # Examples / Code
 
-* Example visualizations/apps built on API Highways APIs:
-https://apihighways.org/examples/
+* Example visualizations/apps built on API Highways APIs: https://apihighways.org/examples/
 * Example code using APIs for environmental data: https://github.com/nsuberi/RW_hackathon_materials 
 
 # Datasets
@@ -35,10 +42,11 @@ https://apihighways.org/examples/
 ## Agriculture / climate change
 
 Farmer List and Market Locations:
-   * API info / link on API Highways: 
+   * Farmers API: https://apihighways.org/data-sets/1fdceed2-57f7-4b5b-81e6-e202c53b661b
    * Data.World: https://data.world/gpsdd/farmers-and-market-information-sierra-leone 
-   * CARTO Map (incomplete data: https://apihighways.carto.com/builder/a25ddaad-6e44-4d5c-8154-6889ee6ac118 
+   * CARTO Map (incomplete data): https://apihighways.carto.com/builder/a25ddaad-6e44-4d5c-8154-6889ee6ac118 
 
+Agriculture and Country Statistics: https://harvestchoice.org/products/data?page=5
 
 Climate Change APIs from Azavea:
 https://climate.azavea.com/ 
@@ -54,12 +62,16 @@ https://apihighways.org/data-sets/ef6b50c5-8654-4e92-8083-e1773679bcdd
       * Geospatial API:[a]
       * Data.World: https://data.world/gpsdd/national-water-point-mapping-sierra-leone 
 
-
 Waterways in Sierra Leone extracted from OpenStreetMap:
 https://data.humdata.org/dataset/hotosm_sierra_leone_waterways 
 
-Agriculture and environmental map APIs: 
+Agriculture and environment-related map APIs: 
 http://sedac.ciesin.columbia.edu/maps/services 
+
+Poultry:
+
+      * http://sierraleone.opendataforafrica.org/uetcsne/livestock-dashboard-poultry 
+      * Poultry Head/sq. km:  https://harvestchoice.org/data/an05_chic 
 
 NOAA Global Historical Climatology Network Weather Data 
       * Source organization: NOAA
@@ -67,7 +79,6 @@ NOAA Global Historical Climatology Network Weather Data
       * API info / link on API Highways: 
       * Weather Stations: https://apihighways.org/data-sets/48aa5455-aede-4577-b820-5fa053558e29 
       * NOTE: Each year of data must be added to API Highways as new dataset to access 
-
 
 IIU Fishing Database 
       * Source organization: NOAA
@@ -82,6 +93,14 @@ World Database on Protected Areas:
      * API info / link:
      * API Highways: https://apihighways.org/data-sets/de452a4c-a55c-464d-9037-8c3e9fe48365 
      * Other APIs: https://api.protectedplanet.net/ 
+
+Eutrophication and Hypoxia: 
+     * Source organization: World Resources Institute (WRI) 
+     * Source website / metadata: https://resourcewatch.org/data/explore/wat041-Eutrophication-and-Hypoxia
+     * API info / links:
+     * API Highways: search on API Highways
+     * CARTO: https://wri-rw.carto.com/tables/wat_041_eutrophication_hypoxia/public 
+     * Resource Watch Endpoint: https://api.resourcewatch.org/v1/dataset/a2f3ac57-e2ee-4512-8952-f00b417b6820 
 
 JRC Monthly Water History, v1.0:
       * Source organization: EC JRC (European Commission) / Google
@@ -124,17 +143,35 @@ Observed and Projected Climate Shifts
 
 ## Roads / Trails / Infrastructure
 
-Roads
+**Administrative Boundaries:** 
+      
+    * https://data.humdata.org/dataset/sierra-leone-all-ad-min-level-boundaries
+    * Chiefdoms, regional, district: https://apihighways.carto.com/dashboard/datasets/tag/sierra_leone
+    
+**Roads:**
          * Official Road Data:
-         	* Major Roads API: https://apihighways.org/data-sets/7558c770-fec5-4eb0-a7db-8396bbb38d2f  
-         	* Minor Roads API:
+          * Major Roads API: https://apihighways.org/data-sets/7558c770-fec5-4eb0-a7db-8396bbb38d2f  
+          * Minor Roads API:
 https://apihighways.org/data-sets/f1bbb370-a7f2-4194-a139-aaba0b3c4a95
          * Roads and Trails in Sierra Leone from OpenStreetMap: https://data.humdata.org/dataset/sierra-leone-road-network 
          * Map of all road layers (official and OSM): https://apihighways.carto.com/builder/20a30903-95ad-4ace-a504-a1c00428b13c 
 
+**Cell Signal Strength:
 
-Cell Signal Strength:
          * Source dataset: https://data.humdata.org/dataset/west-africa-cell-signal-strength-opensignal 
+
+**Other Infrastructure Datasets:**
+https://catalog.data.gov/dataset?organization_type=Non-Profit&tags=sierra+leone&page=1
+
+    * Cell Towers
+    * Landuse
+    * Infrastructure Railways
+    * Market Centers
+    * Rice Production
+    * Food Consumption
+    * Roads
+    * Water Inland Areas
+
    
 ## Population / land cover
 
@@ -143,6 +180,7 @@ WorldPop Project Population Data: Estimated Residential Population per 100x100m 
          * Source website / metadata: http://www.worldpop.org
          * API info / links: https://apihighways.org/data-sets/28dea2e2-1ebb-46a9-9d34-c0e9156a210b 
 
+Land Cover in Sierra Leone: http://www.fao.org/geonetwork/srv/en/main.home?uuid=973fdcbe-c347-47a7-9af7-e2e57729a35b
 
 GlobCover: Global Land Cover Map        
          * Source organization: European Space Agency 
@@ -186,25 +224,6 @@ Global Mangrove Forests Distribution, v1 (2000):
          * Source organization: CIESIN
          * Source website / metadata: http://sedac.ciesin.columbia.edu/data/set/lulc-global-mangrove-forests-distribution-2000 
          * API info / link on API Highways: search on API Highways
-
-
-## Pollution / air quality / water quality
-
-Global Air Quality Data:
-         * Source organization: OpenAQ 
-         * Source website / metadata: https://openaq.org/ 
-         * API info / links: 
-         * API Highways: https://apihighways.org/data-sets/9b0455e0-ee4b-49fd-92d3-19962e918819
-         * Additional APIs: https://docs.openaq.org/ 
-
-
-Eutrophication and Hypoxia: 
-         * Source organization: World Resources Institute (WRI) 
-         * Source website / metadata: https://resourcewatch.org/data/explore/wat041-Eutrophication-and-Hypoxia
-         * API info / links:
-         * API Highways: search on API Highways
-         * CARTO: https://wri-rw.carto.com/tables/wat_041_eutrophication_hypoxia/public 
-         * Resource Watch Endpoint: https://api.resourcewatch.org/v1/dataset/a2f3ac57-e2ee-4512-8952-f00b417b6820 
 
 
 ## Health
